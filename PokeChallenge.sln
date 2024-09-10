@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0F887945-1D01-4100-8B1A-548424811B52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokeChallenge.API", "src\PokeChallenge.API\PokeChallenge.API.csproj", "{EFBA3D2D-2047-4D4E-A6EA-9E70E1E0F829}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens de Solução", "Itens de Solução", "{B4800701-2C96-48BA-84C0-5CF4065EB4AA}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+		global.json = global.json
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFBA3D2D-2047-4D4E-A6EA-9E70E1E0F829}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFBA3D2D-2047-4D4E-A6EA-9E70E1E0F829}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFBA3D2D-2047-4D4E-A6EA-9E70E1E0F829}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFBA3D2D-2047-4D4E-A6EA-9E70E1E0F829}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EFBA3D2D-2047-4D4E-A6EA-9E70E1E0F829} = {0F887945-1D01-4100-8B1A-548424811B52}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00E4E210-382F-4656-9CB0-09576565D1FC}
+	EndGlobalSection
+EndGlobal

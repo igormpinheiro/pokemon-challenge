@@ -1,0 +1,6 @@
+@PokeChallenge.API_HostAddress = http://localhost:5230
+
+GET {{PokeChallenge.API_HostAddress}}/
+Accept: application/json
+
+###
