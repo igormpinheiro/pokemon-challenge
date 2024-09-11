@@ -1,4 +1,5 @@
 ﻿using ErrorOr;
+using PokeChallenge.API.Domain.Pokemons;
 
 namespace PokeChallenge.API.Domain.PokemonMasters;
 
@@ -8,6 +9,7 @@ public sealed class PokemonMaster
     public string Nome { get; private set; }
     public Email Email { get; private set; }
     public CPF CPF { get; private set; }
+    public ICollection<Pokemon> Pokemons { get; private set; } = [];
 
     private PokemonMaster()
     {
@@ -24,5 +26,15 @@ public sealed class PokemonMaster
                 CPF = cpf,
             };
         }
+    }
+
+    public void AddPokemon(Pokemon pokemon)
+    {
+        Pokemons.Add(pokemon);
+    }
+
+    public void RemovePokemon(Pokemon pokemon)
+    {
+        Pokemons.Remove(pokemon);
     }
 }

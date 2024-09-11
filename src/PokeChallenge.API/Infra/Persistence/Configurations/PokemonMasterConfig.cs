@@ -21,5 +21,7 @@ public class PokemonMasterConfig : IEntityTypeConfiguration<PokemonMaster>
         builder.ComplexProperty(
             u => u.CPF,
             b => b.Property(e => e.Value).HasColumnName("Cpf"));
+
+        builder.HasMany(e => e.Pokemons).WithOne(p => p.PokemonMaster).HasForeignKey(p => p.PokemonMasterId);
     }
 }
